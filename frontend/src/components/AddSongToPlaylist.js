@@ -7,7 +7,7 @@ class AddSongToPlaylist extends React.Component
         <form>
             <h3>Select a Playlist: </h3>
             <select>
-                {playlists.map(i => <option key={index} value={i.id}>{i.name}</option>)}
+                {playlists.map(playlist, index => <option key={index} value={playlist._id}>{playlist.name}</option>)}
             </select>
             <button type="submit">Add</button>
         </form>
