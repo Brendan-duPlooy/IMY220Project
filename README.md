@@ -1,6 +1,6 @@
 # IMY220Project
 
-u23605376 Brendan du Plooy D0-D1
+u23605376 Brendan du Plooy D0-D2
 
 docker build -t imy220-playlist-sharing .
 
