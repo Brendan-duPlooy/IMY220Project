@@ -5,10 +5,10 @@ const userSchema = new mongoose.Schema({
   email: String,
   password: String,
   bio: String,
-  friends: [String],  // Array of friend user IDs
-  requesting: [String],  // Array of user IDs requesting friendship
+  friends: [String],
+  requesting: [String],
   profileImageUrl: String,
-  playlists: [String],  // Array of playlist IDs
+  playlists: [String],
 });
 
 const User = mongoose.model('User', userSchema);

@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import Song from './Song';
 
-class SongFeed extends Component {
-  constructor(props) {
+class SongFeed extends Component 
+{
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
+  constructor(props) 
+  {
     super(props);
     this.state = {
       songs: [],
@@ -11,26 +15,39 @@ class SongFeed extends Component {
     };
   }
 
-  componentDidMount() {
-    // Fetch songs from the backend API when the component mounts
-    fetch('/api/songs') // Replace with the correct API route
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
+  componentDidMount() 
+  {
+    fetch('/api/songs')
       .then(response => response.json())
       .then(data => this.setState({ songs: data, isLoading: false }))
       .catch(error => this.setState({ error, isLoading: false }));
   }
 
-  render() {
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
+  render() 
+  {
     const { songs, isLoading, error } = this.state;
+
+    //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 
     if (isLoading) return <p>Loading songs...</p>;
     if (error) return <p>Error fetching songs: {error.message}</p>;
+
+    //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
+    const sortedSongs = songs.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+    //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 
     return (
       <div>
         <h2>Songs Feed</h2>
         <div>
-          {songs.length > 0 ? (
-            songs.map(song => (
+          {sortedSongs.length > 0 ? (
+            sortedSongs.map(song => (
               <Song
                 key={song._id}
                 name={song.name}
@@ -45,8 +62,9 @@ class SongFeed extends Component {
         </div>
       </div>
     );
+
+    //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
   }
 }
 
 export default SongFeed;
-

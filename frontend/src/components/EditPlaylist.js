@@ -2,6 +2,7 @@ import React from 'react';
 
 class EditPlaylist extends React.Component 
 {
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
   render()
   {
     const {calledFunc} = this.props;
@@ -15,6 +16,7 @@ class EditPlaylist extends React.Component
       </form>
     );
   }
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 }
 
 export default EditPlaylist;

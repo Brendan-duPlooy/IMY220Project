@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
-const CreatePlaylist = ({ userId, onCreate }) => {
+//<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
+const CreatePlaylist = ({ id, userName, onCreate }) => {
   const [formData, setFormData] = useState({
     name: "",
     description: "",
@@ -9,6 +11,8 @@ const CreatePlaylist = ({ userId, onCreate }) => {
     imageUrl: "",
   });
 
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -16,52 +20,55 @@ const CreatePlaylist = ({ userId, onCreate }) => {
     });
   };
 
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    try {
-      // First, create the playlist
-      const playlistResponse = await fetch("/api/playlists", {
-        method: "POST",
+    const playlistName = formData.name.trim() ? formData.name : `${userName}'s Playlist-1`;
+
+    const playlistResponse = await fetch("/api/playlists", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        ...formData,
+        name: playlistName,
+        creator: id
+      }),
+    });
+
+    //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
+    const newPlaylist = await playlistResponse.json();
+
+    if (playlistResponse.status === 201) {
+      await fetch(`/api/users/${id}/playlists`, {
+        method: "PUT",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({
-          ...formData,
-          creator: userId, // Link playlist to the user
-        }),
+        body: JSON.stringify({ playlistId: newPlaylist._id }),
       });
+      
 
-      const newPlaylist = await playlistResponse.json();
+      alert("Playlist created and added to your profile!");
+      onCreate();
 
-      if (playlistResponse.status === 201) {
-        // Now, update the user to add the new playlist ID
-        const userResponse = await fetch(`/api/users/${userId}`, {
-          method: "PUT",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ playlistId: newPlaylist._id }),
-        });
-
-        if (userResponse.status === 200) {
-          alert("Playlist created and added to your profile!");
-          onCreate(); // Trigger parent update, such as refreshing the page or list
-        } else {
-          console.error("Error updating user with new playlist.");
-        }
-      } else {
-        console.error("Error creating playlist.");
-      }
-    } catch (error) {
-      console.error("Error during playlist creation process:", error);
+    } 
+    else 
+    {
+      console.error("Error creating playlist.");
     }
   };
+
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Name <input required type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Highway to Heaven" />
+        Name <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Highway to Heaven" />
       </label>
       <label>
         Description <textarea name="description" value={formData.description} onChange={handleChange} placeholder="A mix of rock and lofi music" />
@@ -88,4 +95,3 @@ const CreatePlaylist = ({ userId, onCreate }) => {
 };
 
 export default CreatePlaylist;
-

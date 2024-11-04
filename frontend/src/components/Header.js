@@ -2,18 +2,22 @@ import React from 'react';
 import { Link, useParams } from "react-router-dom";
 
 const Header = () => {
-  const { id } = useParams(); // Get the ID from the current route parameters
+
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
+  const { id } = useParams();
+
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 
   return (
     <nav>
-      <img src="../public/assets/images" alt="Picture of Puhiwi logo" />
+      <Link to={`/home/${id}`}><img src="./images/puhiwi.png" alt="Picture of Puhiwi logo"/></Link>
       <ul>
-        {/* Using string interpolation to add the dynamic id to the URL */}
         <li>
           <Link to={`/home/${id}`}>Home</Link>
         </li>
         <li>
-          <Link to={`/profile/${id}`}>Profile</Link>
+          <Link to={`/profile/${id}/${id}`}>Profile</Link>
         </li>
         <li>
           <Link to="/">Logout</Link>
@@ -21,6 +25,8 @@ const Header = () => {
       </ul>
     </nav>
   );
+
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 };
 
 export default Header;

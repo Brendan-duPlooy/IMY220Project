@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "6727e51d5975f7c08ddd06d0"
+  },
+  "name": "Love Story",
+  "artist": "Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/6YvqWjhGD8mB5QXcbcUKtx?si=1ac166598f6e4e3e",
+  "timestamp": {
+    "$date": "2024-11-03T21:03:25.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e5435975f7c08ddd06d6"
+  },
+  "name": "Style",
+  "artist": "Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/0ug5NqcwcFR2xrfTkc7k8e?si=8ba38090162c44a8",
+  "timestamp": {
+    "$date": "2024-11-03T21:04:03.760Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e5705975f7c08ddd06e5"
+  },
+  "name": "Style (Taylor's version)",
+  "artist": "Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/1hjRhYpWyqDpPahmSlUTlc?si=6416cae5a93e458b",
+  "timestamp": {
+    "$date": "2024-11-03T21:04:48.434Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e6925975f7c08ddd070d"
+  },
+  "name": "Chickens!",
+  "artist": "Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/6dgUya35uo964z7GZXM07g?si=bdddbca7d6e045e4",
+  "timestamp": {
+    "$date": "2024-11-03T21:09:38.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e7305975f7c08ddd072e"
+  },
+  "name": "Fortnight",
+  "artist": "Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/6dODwocEuGzHAavXqTbwHv?si=291fb484b4a449b5",
+  "timestamp": {
+    "$date": "2024-11-03T21:12:16.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e7ac5975f7c08ddd0741"
+  },
+  "name": "The Bolter",
+  "artist": "Not Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/2913xXOVAIDAqxzV2g4VcU?si=a67190b2db174652",
+  "timestamp": {
+    "$date": "2024-11-03T21:14:20.555Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e8175975f7c08ddd075b"
+  },
+  "name": "I Can Do It With a Broken Heart",
+  "artist": "Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/6zpL5ceKCUy7dipRdWjVtA?si=0ba816c7976746cc",
+  "timestamp": {
+    "$date": "2024-11-03T21:16:07.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e9815975f7c08ddd083d"
+  },
+  "name": "Cruel Summer",
+  "artist": "Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/1kHVme7OVyPqhtdiLj2SI4?si=3ac150e663884c1f",
+  "timestamp": {
+    "$date": "2024-11-03T21:22:09.648Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727ead85975f7c08ddd08ad"
+  },
+  "name": "Message In a Bottle",
+  "artist": "Taylor Remix",
+  "spotifyUrl": "https://open.spotify.com/track/3tGq7hWDCtrnL83y5OGual?si=fcea2fd5a9fd4dc3",
+  "timestamp": {
+    "$date": "2024-11-03T21:27:52.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727eaed5975f7c08ddd08b4"
+  },
+  "name": "Safe & Sound",
+  "artist": "Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/2RJnNdu4pb3MypbBroHU0T?si=51bff6f861d04443",
+  "timestamp": {
+    "$date": "2024-11-03T21:28:13.966Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727eb045975f7c08ddd08bc"
+  },
+  "name": "Willow",
+  "artist": "Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/77p4fRpoeiZMtUy3P9kN21?si=40b1e6a92c76454f",
+  "timestamp": {
+    "$date": "2024-11-03T21:28:36.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727eb365975f7c08ddd08c5"
+  },
+  "name": "Willow - Lonely Witch",
+  "artist": "Taylor Swift",
+  "spotifyUrl": "https://open.spotify.com/track/0U0etHtpARihOUUY8Akc7y?si=1bb3f11255ec4d63",
+  "timestamp": {
+    "$date": "2024-11-03T21:29:26.253Z"
+  },
+  "__v": 0
+}]

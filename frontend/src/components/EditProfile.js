@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
 
+//<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
 const EditProfile = ({ name, bio, onSave }) => {
   const [updatedName, setUpdatedName] = useState(name);
   const [updatedBio, setUpdatedBio] = useState(bio);
+
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 
   const handleSubmit = (e) => {
     e.preventDefault();
     onSave({ name: updatedName, bio: updatedBio });
   };
+
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 
   return (
     <form onSubmit={handleSubmit}>
@@ -36,6 +42,8 @@ const EditProfile = ({ name, bio, onSave }) => {
     </form>
   );
 };
+
+//<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 
 export default EditProfile;
 

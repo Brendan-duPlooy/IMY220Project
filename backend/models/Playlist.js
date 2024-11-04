@@ -6,11 +6,11 @@ const playlistSchema = new mongoose.Schema({
   hashtags: [String],
   genre: String,
   imageUrl: String,
-  creator: String,  // User ID
-  songs: [String],  // Array of song IDs
+  creator: String,
+  songs: [String],
   comments: [
     {
-      user: String,  // User ID
+      user: String,
       comment: String,
       image: String,
     }
