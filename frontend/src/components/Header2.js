@@ -3,23 +3,22 @@ import {Link} from "react-router-dom";
 
 class Header2 extends React.Component 
 {
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
   render() 
   {
     return(
         <nav>
             <img src="../public/assets/images" alt="Pictue of Puhiwi logo"/>
             <ul>
-                {/* wont be be used like this in the future, just showcasing that it works temporarily */}
                 <li><Link to="/">Splash</Link></li>
                 <li>
-                    {/* will do proper routing later */}
-                    {/* (implemented) */}
                     <Link to="/home2/0">Image</Link>
                 </li>
           </ul>
         </nav>
     );
   }
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 }
 
 export default Header2;

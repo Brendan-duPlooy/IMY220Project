@@ -1,0 +1,181 @@
+[{
+  "_id": {
+    "$oid": "6727c320c7c7d4d6f1b0cd63"
+  },
+  "name": "Adminastrator",
+  "email": "adminsocool@puhiwi.com",
+  "password": "adminIsBest",
+  "bio": "Im like the best admin ever...",
+  "friends": [],
+  "requesting": [],
+  "profileImageUrl": "https//adminsRule.jpg",
+  "playlists": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e0b95975f7c08ddd0699"
+  },
+  "name": "Tester",
+  "email": "test@test.com",
+  "password": "test1234",
+  "bio": "I am the best tester!",
+  "friends": [
+    "6727e0f55975f7c08ddd06a2",
+    "6727e1da5975f7c08ddd06b1"
+  ],
+  "requesting": [
+    "6727e2175975f7c08ddd06b4"
+  ],
+  "profileImageUrl": "http//testing.jpg",
+  "playlists": [
+    "6727e4b05975f7c08ddd06c0",
+    "6727e4e15975f7c08ddd06c5",
+    "6727e7f95975f7c08ddd0750",
+    "6727e87d5975f7c08ddd0769"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e0f55975f7c08ddd06a2"
+  },
+  "name": "Lisa",
+  "email": "lisa.daniels@example.com",
+  "password": "hashed_password_1",
+  "bio": "Hi im Lisa!\nWelcome to my Profile!",
+  "friends": [
+    "6727e0b95975f7c08ddd0699"
+  ],
+  "requesting": [
+    "6727e1da5975f7c08ddd06b1",
+    "6727e2175975f7c08ddd06b4"
+  ],
+  "profileImageUrl": "http//photoOfLisa.jpg",
+  "playlists": [
+    "6727e5e75975f7c08ddd06f5"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e1265975f7c08ddd06a5"
+  },
+  "name": "Jacques",
+  "email": "jac@uit.com",
+  "password": "jac1234",
+  "bio": "Look at all my playlists!",
+  "friends": [],
+  "requesting": [],
+  "profileImageUrl": "http//pictureOfJacques.jpg",
+  "playlists": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e1515975f7c08ddd06a8"
+  },
+  "name": "Janine",
+  "email": "janine@outlook.com",
+  "password": "janaine1234",
+  "bio": "I love music!",
+  "friends": [],
+  "requesting": [],
+  "profileImageUrl": "http//pictueOfJanine.jpg",
+  "playlists": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e1775975f7c08ddd06ab"
+  },
+  "name": "Jaymin",
+  "email": "jaymin@google.com",
+  "password": "jaymin1234",
+  "bio": "Ye..\nI know that I work for google...",
+  "friends": [],
+  "requesting": [],
+  "profileImageUrl": "http//pictureOfJaymin",
+  "playlists": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e1af5975f7c08ddd06ae"
+  },
+  "name": "Ian",
+  "email": "ian@gmail.com",
+  "password": "ian1234",
+  "bio": "Hi my name is Ian!",
+  "friends": [],
+  "requesting": [],
+  "profileImageUrl": "http//picuteOfIan.jpg",
+  "playlists": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e1da5975f7c08ddd06b1"
+  },
+  "name": "Euan",
+  "email": "euan@google.com",
+  "password": "euan1234",
+  "bio": "I also work for google!",
+  "friends": [
+    "6727e0b95975f7c08ddd0699"
+  ],
+  "requesting": [],
+  "profileImageUrl": "http//pictureOfEuan",
+  "playlists": [
+    "6727e77b5975f7c08ddd0739"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e2175975f7c08ddd06b4"
+  },
+  "name": "Nolan",
+  "email": "nolan@gmail.com",
+  "password": "nolan1234",
+  "bio": "Welcome to my Page!",
+  "friends": [],
+  "requesting": [],
+  "profileImageUrl": "http//pictureOfNolan.jpg",
+  "playlists": [
+    "6727ea185975f7c08ddd0880",
+    "6727ea345975f7c08ddd0885",
+    "6727ea5c5975f7c08ddd088b"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e23a5975f7c08ddd06b7"
+  },
+  "name": "Hannah",
+  "email": "hannah@outlook.com",
+  "password": "hannah1234",
+  "bio": "Look at all my songs!",
+  "friends": [],
+  "requesting": [],
+  "profileImageUrl": "http//pictureOfHannah",
+  "playlists": [
+    "6727e6f95975f7c08ddd071b"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e26f5975f7c08ddd06ba"
+  },
+  "name": "Louise",
+  "email": "louse@uit.com",
+  "password": "louise1234",
+  "bio": "Hi my name is Louise!",
+  "friends": [],
+  "requesting": [],
+  "profileImageUrl": "http//pictureOfLouise",
+  "playlists": [],
+  "__v": 0
+}]

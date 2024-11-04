@@ -2,6 +2,7 @@ import React from 'react';
 
 class AddComment extends React.Component 
 {
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
   render() 
   {
     const {calledFunc} = this.props;
@@ -13,6 +14,7 @@ class AddComment extends React.Component
       </form>
     );
   }
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 }
 
 export default AddComment;

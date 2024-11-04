@@ -1,8 +1,13 @@
 import React from 'react';
 
 class Playlist extends React.Component {
-  render() {
+  render() 
+  {
+    //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
+
     const {title,img,descrpt,hashs,genre,list} = this.props;
+
+    //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
     return(
       <div>
         <h1>{title}</h1>
@@ -16,6 +21,7 @@ class Playlist extends React.Component {
       </div>
     );
   }
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 }
 
 export default Playlist;

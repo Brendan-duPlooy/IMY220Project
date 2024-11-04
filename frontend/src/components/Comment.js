@@ -2,6 +2,7 @@ import React from 'react';
 
 class Comment extends React.Component 
 {
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
   render() 
   {
     const {img,username,comment} = this.props;
@@ -13,6 +14,7 @@ class Comment extends React.Component
       </div>
     );
   }
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 }
 
 export default Comment;

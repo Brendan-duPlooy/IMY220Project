@@ -1,0 +1,193 @@
+[{
+  "_id": {
+    "$oid": "6727e4b05975f7c08ddd06c0"
+  },
+  "name": "Taylor's Love",
+  "description": "A mix of a bunch of Taylor Swift songs :)",
+  "hashtags": [
+    "#TaylorSwift#Love"
+  ],
+  "genre": "kawaiimetal",
+  "imageUrl": "hhtps://TaylorsLove.jpg",
+  "creator": "6727e0b95975f7c08ddd0699",
+  "songs": [
+    "6727e51d5975f7c08ddd06d0",
+    "6727e5435975f7c08ddd06d6",
+    "6727e5705975f7c08ddd06e5"
+  ],
+  "comments": [
+    {
+      "user": "Lisa",
+      "comment": "Wow I love this playlist!",
+      "_id": {
+        "$oid": "6727e9a05975f7c08ddd085a"
+      }
+    },
+    {
+      "user": "Nolan",
+      "comment": "Such an amazing experience!",
+      "_id": {
+        "$oid": "6727e9cc5975f7c08ddd0868"
+      }
+    }
+  ],
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6727e4e15975f7c08ddd06c5"
+  },
+  "name": "You Rock!",
+  "description": "A playlist to make you happy!",
+  "hashtags": [
+    "#rock#happy"
+  ],
+  "genre": "mathrock",
+  "imageUrl": "https://rockallday.jpg",
+  "creator": "6727e0b95975f7c08ddd0699",
+  "songs": [],
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727e5e75975f7c08ddd06f5"
+  },
+  "name": "A story about Chickens",
+  "description": "I love chickens!",
+  "hashtags": [
+    "#chickens#Love"
+  ],
+  "genre": "vaporwave",
+  "imageUrl": "https://chickens.jpg",
+  "creator": "6727e0f55975f7c08ddd06a2",
+  "songs": [
+    "6727e6925975f7c08ddd070d",
+    "6727ead85975f7c08ddd08ad",
+    "6727eaed5975f7c08ddd08b4",
+    "6727eb045975f7c08ddd08bc",
+    "6727eb365975f7c08ddd08c5"
+  ],
+  "comments": [],
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6727e6f95975f7c08ddd071b"
+  },
+  "name": "Hannah's Playlist",
+  "description": "Enjoy the music!",
+  "hashtags": [
+    "#calm#sporty"
+  ],
+  "genre": "folktronica",
+  "imageUrl": "https://calm.jpg",
+  "creator": "6727e23a5975f7c08ddd06b7",
+  "songs": [
+    "6727e7305975f7c08ddd072e"
+  ],
+  "comments": [],
+  "__v": 3
+},
+{
+  "_id": {
+    "$oid": "6727e77b5975f7c08ddd0739"
+  },
+  "name": "Highway To Heaven",
+  "description": "rock and lofi type beat",
+  "hashtags": [
+    "#rockLofi#chickens"
+  ],
+  "genre": "",
+  "imageUrl": "https://chickenRock",
+  "creator": "6727e1da5975f7c08ddd06b1",
+  "songs": [
+    "6727e7ac5975f7c08ddd0741"
+  ],
+  "comments": [],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6727e7f95975f7c08ddd0750"
+  },
+  "name": "Lost Line",
+  "description": "Music based on poetism",
+  "hashtags": [
+    "#poets#life#Love"
+  ],
+  "genre": "kawaiimetal",
+  "imageUrl": "htpps://poet.jpg",
+  "creator": "6727e0b95975f7c08ddd0699",
+  "songs": [
+    "6727e8175975f7c08ddd075b"
+  ],
+  "comments": [],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6727e87d5975f7c08ddd0769"
+  },
+  "name": "Listen In the Rain",
+  "description": "Music to listen to while its raining :)",
+  "hashtags": [
+    "#rain#Love"
+  ],
+  "genre": "vaporwave",
+  "imageUrl": "htpps://rain.jpg",
+  "creator": "6727e0b95975f7c08ddd0699",
+  "songs": [
+    "6727e9815975f7c08ddd083d"
+  ],
+  "comments": [],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6727ea185975f7c08ddd0880"
+  },
+  "name": "Batman",
+  "description": "im batmannn",
+  "hashtags": [
+    "#batman"
+  ],
+  "genre": "",
+  "imageUrl": "htpps://batman",
+  "creator": "6727e2175975f7c08ddd06b4",
+  "songs": [],
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727ea345975f7c08ddd0885"
+  },
+  "name": "Spider",
+  "description": "im spidermannnn",
+  "hashtags": [
+    "#spiderman"
+  ],
+  "genre": "",
+  "imageUrl": "htpps://spiderman.jpg",
+  "creator": "6727e2175975f7c08ddd06b4",
+  "songs": [],
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6727ea5c5975f7c08ddd088b"
+  },
+  "name": "ironman",
+  "description": "im ironmannnn",
+  "hashtags": [
+    "#ironman"
+  ],
+  "genre": "",
+  "imageUrl": "htpps://ironman.jpg",
+  "creator": "6727e2175975f7c08ddd06b4",
+  "songs": [],
+  "comments": [],
+  "__v": 0
+}]

@@ -2,6 +2,7 @@ import React from 'react';
 
 class ListComments extends React.Component 
 {
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
   render() 
   {
     const {list} = this.props;
@@ -11,6 +12,7 @@ class ListComments extends React.Component
       </div>
     );
   }
+  //<(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)><(030)>
 }
 
 export default ListComments;
